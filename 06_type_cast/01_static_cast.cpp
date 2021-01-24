@@ -9,7 +9,7 @@ using namespace std;
 using namespace std;
 
 void print_data(void* data) {
-    cout << data << endl;
+    cout << static_cast<char*>(data) << endl;
 }
 
 int main(){
